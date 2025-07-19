@@ -1,1 +1,65 @@
-hello
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Name – PhD Student</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+  <div class="max-w-4xl mx-auto p-6">
+
+    <!-- Header -->
+    <header class="flex flex-col sm:flex-row items-center sm:items-start gap-6 mt-8">
+      <img src="your-photo.jpg" alt="Your Name" class="w-32 h-32 rounded-full shadow-md object-cover">
+      <div>
+        <h1 class="text-3xl font-bold">Your Name</h1>
+        <p class="text-xl text-gray-600">PhD Student in [Department], [University]</p>
+        <p class="mt-2">Interested in [research area 1], [research area 2], and [topic].</p>
+        <div class="mt-4 flex gap-4">
+          <a href="mailto:your@email.com" class="text-blue-600 hover:underline">Email</a>
+          <a href="https://github.com/yourhandle" class="text-blue-600 hover:underline">GitHub</a>
+          <a href="https://scholar.google.com/yourprofile" class="text-blue-600 hover:underline">Google Scholar</a>
+          <a href="CV.pdf" class="text-blue-600 hover:underline">CV</a>
+        </div>
+      </div>
+    </header>
+
+    <!-- Research Interests -->
+    <section class="mt-10">
+      <h2 class="text-2xl font-semibold mb-2">Research Interests</h2>
+      <ul class="list-disc list-inside text-gray-700 space-y-1">
+        <li>Statistical Machine Learning</li>
+        <li>Causal Inference and Structural Models</li>
+        <li>Simulation-based Inference</li>
+      </ul>
+    </section>
+
+    <!-- Publications -->
+    <section class="mt-10">
+      <h2 class="text-2xl font-semibold mb-2">Recent Publications</h2>
+      <ul class="space-y-4">
+        <li>
+          <strong>Title of Your Paper</strong><br />
+          <em>Conference Name, Year</em><br />
+          <a href="link-to-paper.pdf" class="text-blue-600 hover:underline">PDF</a>
+        </li>
+        <li>
+          <strong>Another Paper Title</strong><br />
+          <em>Journal Name, Year</em><br />
+          <a href="#" class="text-blue-600 hover:underline">PDF</a>
+        </li>
+      </ul>
+      <p class="mt-2">
+        <a href="publications.html" class="text-blue-600 hover:underline">See all publications →</a>
+      </p>
+    </section>
+
+    <!-- Footer -->
+    <footer class="mt-16 text-sm text-gray-500 text-center">
+      &copy; 2025 Your Name. Built with HTML & Tailwind CSS.
+    </footer>
+
+  </div>
+</body>
+</html>
